@@ -1,0 +1,49 @@
+html {
+    background-color: rgb(109, 166, 241)
+}
+
+#main_header {
+    color: white;
+    font-weight: bold;
+    font-family: 'Noto sans';
+    font-size: 30px;
+}
+
+#main_header1 {
+    color: black;
+}
+
+/* #main_div {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+
+#formbackground {
+    font-family:'Noto sans', 'Verdana', 'Arial';
+    background-color:rgb(214, 214, 214);
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 8px 8px 2px 1px rgb(0, 0, 0, 0.2)
+}
+
+#nickname, #firstname, #lastname, #email, #passwrd, #pfp, #mysubmit, #myreset {
+    display: block;
+    margin: 0 auto;
+}
+
+.my_label {
+    display: block;
+    text-align: center;
+}
+
+article {
+    background-color: red;
+}
+#test {
+    color: blue;
+}
