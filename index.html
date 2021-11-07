@@ -4,25 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico?v=3">
+    <script src="/js/main.js" async></script>
     <title>Langage</title>
 </head>
-<body>
-    <header id="main_header"><span id="main_header1">Lan</span><span id="main_header2">gage</span></header>
-    <div id="main_div"></div>
-    <nav id="main_nav">
+<body id="grid-container">
+    <header id="main-header"><span id="main-header1">Lan</span><span id="main-header2">gage</span></header>
+    <!-- <div id="main_div"></div> -->
+    <nav id="main-nav">
         <ul>
-            <li><a href="">Main menu</a></li>
-            <li><a href="">Learn</a></li>
-            <li><a href="">My profile</a></li>
-            <li><a href="html/sign_up.html">Sign up</a></li>
+            <li id="li1"><a href="">Main menu</a></li>
+            <li id="li2"><a href="">Learn</a></li>
+            <li id="li3"><a href="">Tools</a></li>
+            <li id="li4"><a href="">More</a></li>
         </ul>
     </nav>
-    <section>
-        <div id="formbackground">
-            <div>Hello</div>
+    <div id="user-buttons">
+        <div id="log-in"><a href="">Log in</a></div>
+        <div>|</div>
+        <div id="sign-up"><a href="#" id="sign-up-a">Sign up</a></div>
+    </div>
+    <div class="pop-up-container">
+        <div class="pop-up-contents">
+            <div id="top-bar">
+                <p id="sign-up-title">Create account</p>
+                <div class="pop-up-close">+</div>
+            </div>
+            <div id="lower-part">
+                <form action="" method="POST">
+                    <input type="text" id="input-1" placeholder="Username" required>
+                    <input type="text" id="input-2" placeholder="Email address" required>
+                    <input type="password" id="input-3" placeholder="Password"required>
+                    <input type="password" id="input-4" placeholder="Confirm password" required>
+                    <input type="submit" value="Sign up">
+                    <p id="aclaration-1">By clicking Sign up you agree to our <a href="">Terms and Conditions</a>, and <a href="">Privacy Policy</a>.</p>
+                    <p id="aclaration-2">Already have an account? <a href="">Log in</a>.</p>
+                </form>
+            </div>
         </div>
+    </div>
+    <section id="main-section">
+       <p>
+            Welcome aboard.
+       </p>
     </section>
+    <footer id="main-footer">
+        Lefts and rights reserved.
+    </footer>
 </body>
 </html>
